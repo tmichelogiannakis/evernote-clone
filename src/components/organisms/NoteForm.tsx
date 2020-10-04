@@ -14,9 +14,9 @@ const NoteForm: FunctionComponent<NoteFormProps> = (props) => {
     console.log({ title, content });
   };
   return (
-    <Box backgroundColor="white" p={2}>
+    <Box backgroundColor="white" p={4}>
       <form onSubmit={handleSubmit}>
-        <Text as="h5" color="gray.500">
+        <Text as="h5" color="gray.600">
           New Note
         </Text>
         <Box mb={2}>
