@@ -36,7 +36,7 @@ export default {
     body: 1.5,
     heading: 1.25
   },
-  space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
+  space: [0, '.25rem', '.5rem', '.75rem', '1rem', '1.25rem', '1.5rem', '1.75rem', '2rem'],
   sizes: {
     avatar: 48
   },
