@@ -18,7 +18,7 @@ const NavBar: FunctionComponent<NavBarProps> = () => {
         Notebook
       </Link>
       <Box mx="auto" />
-      <Link to="favorites" variant="nav">
+      <Link to="/favorites" variant="nav">
         Favorites
       </Link>
     </Flex>
