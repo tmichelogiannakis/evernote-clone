@@ -10,15 +10,32 @@ const blue = {
   900: '#0D47A1'
 };
 
+const gray = {
+  100: '#F5F5F5',
+  200: '#EEEEEE',
+  300: '#E0E0E0',
+  400: '#BDBDBD',
+  500: '#9E9E9E',
+  600: '#757575',
+  700: '#616161',
+  800: '#424242',
+  900: '#212121'
+};
+
+const white = '#FFFFFF';
+const black = '#000000';
+
 export default {
   colors: {
     blue,
     text: '#000',
     background: '#fff',
-    primary: '#07c',
+    primary: blue[600],
     secondary: '#30c',
     muted: '#f6f6f9',
-    gray: '#dddddf',
+    gray,
+    white,
+    black,
     highlight: 'hsla(205, 100%, 40%, 0.125)'
   },
   fonts: {
